@@ -2,12 +2,15 @@
   "name": "new-project",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://coiper.github.io/coiper.github.io/moviesearcher/",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.3.1",
@@ -36,6 +39,7 @@
     "eslint-plugin-react": "^7.34.3",
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-react-refresh": "^0.4.7",
+    "gh-pages": "^6.1.1",
     "globals": "^15.6.0",
     "typescript": "^5.2.2",
     "typescript-eslint": "^7.13.1",
