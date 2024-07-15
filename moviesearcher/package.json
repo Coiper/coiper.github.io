@@ -2,7 +2,7 @@
   "name": "new-project",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://coiper.github.io/coiper.github.io/moviesearcher/",
+  "homepage": "https://coiper.github.io/moviesearcher/",
   "type": "module",
   "scripts": {
     "dev": "vite",
